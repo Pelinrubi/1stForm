@@ -1,0 +1,50 @@
+body {background-color: #fec5ef;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    font-family: tahoma;
+    }
+    
+    h1, p {margin: 1em auto;
+    text-align: center;
+    }
+    
+    form {margin: auto;
+    padding: 3px;
+      max-width: 500px;
+      min-width: 300px;}
+    
+    fieldset {border: none;
+    border-top: 2px solid black;
+    padding: 8px;
+    margin: auto;
+    }
+    
+    input,
+    textarea,
+    select {
+      margin: 1px 0 6px 0;
+      width: 100%;
+      min-height: 2em;
+      background-color: #ff97b7;
+      border: none;
+    }
+    
+    #dropdown {background-color: #ff97b7;margin-bottom: 3px;
+    color: grey;
+    }
+    
+    .inline {
+      width: unset;
+      margin: 0 0.5em 0 0;
+      vertical-align: middle;
+    }
+    
+    input[type="submit"] {display: block;
+    margin: auto;
+    border: 1.5px solid black;
+    max-width: 150px;}
+    
+    input:hover {
+      color: white;
+    }

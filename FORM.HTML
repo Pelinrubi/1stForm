@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Build a Survey Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="title">Survey Form</h1>
+  <p id="description">Please fill out this form with the required information</p>
+  <form id="survey-form">
+    <fieldset>
+    <label for="name" id="name-label">First Name: <input type="text" id="name" required placeholder="Ben"/></label>
+    <label for="email" id="email-label">Email: <input type="email" id="email" required placeholder="Example@ex.com"/></label>
+    <label for="number" id="number-label">Age: <input type="number" min="13" max="100" id="number" placeholder="13"/></label>
+    <label for="dropdown">Choose your language: <select id="dropdown"/>
+    <option value="">(Select one)</option>
+    <option value="1">Spanish</option>
+    <option value="2">English</option>
+    <option value="3">Portuguese</option>
+    </select>
+    </label>
+    </fieldset>
+    <fieldset>
+        <label>Would you like to recieve our news?</label>
+        <input type="radio" name="Notifications" checked class="inline" value="yes"><label>Yes</label>
+        <input type="radio" name="Notifications" class="inline" value="no">
+      <label>No</label><br>
+      <label>If so, where?</label>
+      <input type="checkbox" value="email" class="inline" ><label>Email</label>
+      <input type="checkbox" value="phone" class="inline"><label>Phone</label>
+    </fieldset>
+    <fieldset>
+      <label>Let us know how we can do better!<textarea rows="3" cols="30" placeholder="We love to hear your thoughts"/></textarea></label>
+      </fieldset>
+      <input type="submit" id="submit"/>
+  </form>
+</body>
+  </html>
